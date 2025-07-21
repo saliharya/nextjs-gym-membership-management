@@ -97,7 +97,7 @@ MIT License
 
 ---
 
-> Made with ❤️ by \[Your Name or Team Name]
+> Made with ❤️ by Fahrir, Fira, Dea, Arya
 
 ---
 

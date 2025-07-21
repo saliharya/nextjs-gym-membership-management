@@ -3,6 +3,6 @@
 export default function LoginPage() {
 
     return (
-        <div>RegisterPage</div>
+        <div>LoginPage</div>
     )
 }
