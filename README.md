@@ -21,13 +21,13 @@ cd gym-management-platform
 2. **Install dependencies:**
 
 ```bash
-pnpm install
+npm install
 ```
 
 3. **Run the development server:**
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 4. **Visit the app:**
