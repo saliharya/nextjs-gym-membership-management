@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ Gym Management Platform
 
-## Getting Started
+This is a **[Next.js](https://nextjs.org)** project bootstrapped with `create-next-app`, enhanced with Redux Toolkit, TailwindCSS, and Atomic Design principles.
 
-First, run the development server:
+Platform untuk manajemen gym modern, di mana:
+
+* **Member** bisa eksplorasi gym, memperpanjang membership.
+* **Owner** dapat mengelola gym & memberships.
+
+---
+
+## ⚙️ Getting Started
+
+1. **Clone the repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/username/gym-management-platform.git
+cd gym-management-platform
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server:**
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Visit the app:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open [http://localhost:3000](http://localhost:3000) to see the app running.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+/src
+│
+├── /app                  # Next.js App Router (pages, layouts)
+├── /entities             # Domain models & types
+├── /features             # Feature-specific logic (Redux slice, hooks, UI)
+├── /shared
+│   ├── /components       # Atomic Design: atoms, molecules, organisms
+│   ├── /lib              # Store, config, utils
+│   └── /types            # Global types
+├── /services             # API services
+└── /styles               # Global CSS
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📊 Tech Stack
+
+* **Next.js 14 (App Router)**
+* **TypeScript**
+* **Redux Toolkit**
+* **Tailwind CSS**
+* **Atomic Design & Clean Architecture**
+
+---
+
+## 🗂️ Features
+
+* 🔒 Authentication (optional)
+* 🏋️ Browse Gyms & Facilities
+* 💳 Membership Top-Up & Extension
+* 📊 Owner Dashboard for Gym & Member Management
+* ⭐ Gym Ratings & Reviews
+
+---
+
+## 🛠️ Development Tools
+
+* **Redux Toolkit:** Scalable state management
+* **Next.js App Router:** For flexible page layouts
+* **Tailwind CSS:** Utility-first styling
+* **Axios:** HTTP client for API calls
+
+---
+
+## 📌 Contributing
+
+1. Fork this repository.
+2. Create a new branch: `feature/your-feature`
+3. Commit your changes and open a PR.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+> Made with ❤️ by \[Your Name or Team Name]
+
+---
+
+## 📅 Learn More
+
+* [Next.js Documentation](https://nextjs.org/docs)
+* [Learn Next.js](https://nextjs.org/learn)
+* [Redux Toolkit Docs](https://redux-toolkit.js.org)
+* [Tailwind CSS Docs](https://tailwindcss.com/docs)
